@@ -185,8 +185,8 @@ ACCOUNT_UNIQUE_EMAIL = True
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 DEFAULT_FROM_EMAIL = 'admin@djangobookstore.com'
 
-STRIPE_TEST_PUBLISHABLE_KEY= 'pk_test_51Ig3cACKAVgZ1ovXCeniD3rZs7YgxZULwL90teh27CEG8Bnq8vIynJ1RInX13ni0lUegjeGlLSKk9xurQHVh5Ymw00kRb3pR4u'
-STRIPE_TEST_SECRET_KEY= 'sk_test_51Ig3cACKAVgZ1ovXpRjs0fe0Xtofh2FzmpJI31vhqRpp4ov93zUPewM3d1pG6Nzt9tT6rqIlwhN6HYrNZknZxvrh00qm4Clr0n'
+STRIPE_TEST_PUBLISHABLE_KEY= ''
+STRIPE_TEST_SECRET_KEY= ''
 
 # django-debug-toolbar
 hostname,_, ips = socket.gethostbyname_ex(socket.gethostname())
